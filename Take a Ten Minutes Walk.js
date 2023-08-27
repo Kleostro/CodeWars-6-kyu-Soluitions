@@ -7,10 +7,10 @@ You live in the city of Cartesia where all roads are laid out in a perfect grid.
 
 SOLUTION: 
 */
-function isValidWalk(walk) {
-  var dx = 0
-  var dy = 0
-  var dt = walk.length
+const isValidWalk = (walk) => {
+  let dx = 0
+  let dy = 0
+  let dt = walk.length
 
   for (var i = 0; i < walk.length; i++) {
     switch (walk[i]) {
